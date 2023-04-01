@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(background.webp);
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header {
+    display:flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 36px;
+    background-image: url(https://images.unsplash.com/photo-1515606378517-3451a4fa2e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9uZXklMjA4MHB4fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) ;
+    color: white;
+    margin-right: 10px;
+}
+
+.title-block:after {
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.title {
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-02/1645367542_1-phonoteka-org-p-svetlo-rozovii-tsvet-fon-1.jpg);  
+}
+
+.nav ul {
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.281);
+     margin: 10px 0;
+
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #c0c0c0;
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+   background-color:  rgba(185, 185, 185, 0.281);
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+
+}
+
+
+.Conceptualization li {
+    margin: 10px 0;
+    transition: transform .6s ease;
+    cursor: pointer;
+}
+ 
+.Conceptualization li:hover {
+   transform: translateX(10px);
+}
